@@ -1,0 +1,325 @@
+Component: ARM Compiler 5.06 update 6 (build 750) Tool: armlink [4d35ed]
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    .emb_text                                0x00000000   Section        6  sys.o(.emb_text)
+    $v0                                      0x00000000   Number         0  sys.o(.emb_text)
+    ../clib/angel/sys.s                      0x00000000   Number         0  use_no_semi.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  use_no_semi_2.o ABSOLUTE
+    FlashDev.c                               0x00000000   Number         0  flashdev.o ABSOLUTE
+    FlashPrg.c                               0x00000000   Number         0  flashprg.o ABSOLUTE
+    FlashPrg.c                               0x00000000   Number         0  flashprg.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    devices\HARDWARE\LED\led.c               0x00000000   Number         0  led.o ABSOLUTE
+    devices\HARDWARE\QSPI\qspi.c             0x00000000   Number         0  qspi.o ABSOLUTE
+    devices\HARDWARE\W25QXX\w25qxx.c         0x00000000   Number         0  w25qxx.o ABSOLUTE
+    devices\SYSTEM\delay\delay.c             0x00000000   Number         0  delay.o ABSOLUTE
+    devices\SYSTEM\sys\sys.c                 0x00000000   Number         0  sys.o ABSOLUTE
+    devices\SYSTEM\usart\usart.c             0x00000000   Number         0  usart.o ABSOLUTE
+    devices\\HARDWARE\\LED\\led.c            0x00000000   Number         0  led.o ABSOLUTE
+    devices\\HARDWARE\\QSPI\\qspi.c          0x00000000   Number         0  qspi.o ABSOLUTE
+    devices\\HARDWARE\\W25QXX\\w25qxx.c      0x00000000   Number         0  w25qxx.o ABSOLUTE
+    devices\\SYSTEM\\delay\\delay.c          0x00000000   Number         0  delay.o ABSOLUTE
+    devices\\SYSTEM\\sys\\sys.c              0x00000000   Number         0  sys.o ABSOLUTE
+    devices\\SYSTEM\\usart\\usart.c          0x00000000   Number         0  usart.o ABSOLUTE
+    .rev16_text                              0x00000008   Section        4  flashprg.o(.rev16_text)
+    $v0                                      0x00000008   Number         0  flashprg.o(.rev16_text)
+    .rev16_text                              0x0000000c   Section        4  qspi.o(.rev16_text)
+    $v0                                      0x0000000c   Number         0  qspi.o(.rev16_text)
+    .rev16_text                              0x00000010   Section        4  w25qxx.o(.rev16_text)
+    $v0                                      0x00000010   Number         0  w25qxx.o(.rev16_text)
+    .rev16_text                              0x00000014   Section        4  led.o(.rev16_text)
+    $v0                                      0x00000014   Number         0  led.o(.rev16_text)
+    .rev16_text                              0x00000018   Section        4  delay.o(.rev16_text)
+    $v0                                      0x00000018   Number         0  delay.o(.rev16_text)
+    .rev16_text                              0x0000001c   Section        4  sys.o(.rev16_text)
+    $v0                                      0x0000001c   Number         0  sys.o(.rev16_text)
+    .rev16_text                              0x00000020   Section        4  usart.o(.rev16_text)
+    $v0                                      0x00000020   Number         0  usart.o(.rev16_text)
+    .revsh_text                              0x00000024   Section        4  flashprg.o(.revsh_text)
+    $v0                                      0x00000024   Number         0  flashprg.o(.revsh_text)
+    .revsh_text                              0x00000028   Section        4  qspi.o(.revsh_text)
+    $v0                                      0x00000028   Number         0  qspi.o(.revsh_text)
+    .revsh_text                              0x0000002c   Section        4  w25qxx.o(.revsh_text)
+    $v0                                      0x0000002c   Number         0  w25qxx.o(.revsh_text)
+    .revsh_text                              0x00000030   Section        4  led.o(.revsh_text)
+    $v0                                      0x00000030   Number         0  led.o(.revsh_text)
+    .revsh_text                              0x00000034   Section        4  delay.o(.revsh_text)
+    $v0                                      0x00000034   Number         0  delay.o(.revsh_text)
+    .revsh_text                              0x00000038   Section        4  sys.o(.revsh_text)
+    $v0                                      0x00000038   Number         0  sys.o(.revsh_text)
+    .revsh_text                              0x0000003c   Section        4  usart.o(.revsh_text)
+    $v0                                      0x0000003c   Number         0  usart.o(.revsh_text)
+    .rrx_text                                0x00000040   Section        6  flashprg.o(.rrx_text)
+    $v0                                      0x00000040   Number         0  flashprg.o(.rrx_text)
+    .rrx_text                                0x00000048   Section        6  qspi.o(.rrx_text)
+    $v0                                      0x00000048   Number         0  qspi.o(.rrx_text)
+    .rrx_text                                0x00000050   Section        6  w25qxx.o(.rrx_text)
+    $v0                                      0x00000050   Number         0  w25qxx.o(.rrx_text)
+    .rrx_text                                0x00000058   Section        6  led.o(.rrx_text)
+    $v0                                      0x00000058   Number         0  led.o(.rrx_text)
+    .rrx_text                                0x00000060   Section        6  delay.o(.rrx_text)
+    $v0                                      0x00000060   Number         0  delay.o(.rrx_text)
+    .rrx_text                                0x00000068   Section        6  sys.o(.rrx_text)
+    $v0                                      0x00000068   Number         0  sys.o(.rrx_text)
+    .rrx_text                                0x00000070   Section        6  usart.o(.rrx_text)
+    $v0                                      0x00000070   Number         0  usart.o(.rrx_text)
+    .text                                    0x00000078   Section        0  flashprg.o(.text)
+    .text                                    0x00000130   Section        0  qspi.o(.text)
+    .text                                    0x00000398   Section        0  w25qxx.o(.text)
+    .text                                    0x00000684   Section        0  led.o(.text)
+    .text                                    0x000006bc   Section        0  delay.o(.text)
+    .text                                    0x00000768   Section        0  sys.o(.text)
+    .text                                    0x00000b78   Section        0  usart.o(.text)
+    .text                                    0x00000c84   Section        2  use_no_semi_2.o(.text)
+    .text                                    0x00000c86   Section        2  use_no_semi.o(.text)
+    .data                                    0x00000c8c   Section        4  flashprg.o(.data)
+    .data                                    0x00000c90   Section        4  w25qxx.o(.data)
+    .data                                    0x00000c94   Section        2  delay.o(.data)
+    fac_us                                   0x00000c94   Data           2  delay.o(.data)
+    .data                                    0x00000c96   Section        2  usart.o(.data)
+    .data                                    0x00000c98   Section        4  usart.o(.data)
+    .bss                                     0x00000c9c   Section     4096  flashprg.o(.bss)
+    .constdata                               0x00000c9c   Section     4256  flashdev.o(.constdata)
+    .bss                                     0x00001c9c   Section     4096  w25qxx.o(.bss)
+    .bss                                     0x00002c9c   Section      200  usart.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$E$P$D$K$B$S$7EM$VFPv5_D16$PE$PLD8$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$RWPI$~STKCKD$USESV7$~SHL$OSPACE$ROPI$EBA8$STANDARDLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    MSR_MSP                                  0x00000001   Thumb Code     6  sys.o(.emb_text)
+    __asm___10_FlashPrg_c_Init____REV16      0x00000009   Thumb Code     4  flashprg.o(.rev16_text)
+    __asm___6_qspi_c_68b0a1e9____REV16       0x0000000d   Thumb Code     4  qspi.o(.rev16_text)
+    __asm___8_w25qxx_c_7a854d5a____REV16     0x00000011   Thumb Code     4  w25qxx.o(.rev16_text)
+    __asm___5_led_c_LED_Init____REV16        0x00000015   Thumb Code     4  led.o(.rev16_text)
+    __asm___7_delay_c_f6a9c549____REV16      0x00000019   Thumb Code     4  delay.o(.rev16_text)
+    __asm___5_sys_c_d144038c____REV16        0x0000001d   Thumb Code     4  sys.o(.rev16_text)
+    __asm___7_usart_c__ttywrch____REV16      0x00000021   Thumb Code     4  usart.o(.rev16_text)
+    __asm___10_FlashPrg_c_Init____REVSH      0x00000025   Thumb Code     4  flashprg.o(.revsh_text)
+    __asm___6_qspi_c_68b0a1e9____REVSH       0x00000029   Thumb Code     4  qspi.o(.revsh_text)
+    __asm___8_w25qxx_c_7a854d5a____REVSH     0x0000002d   Thumb Code     4  w25qxx.o(.revsh_text)
+    __asm___5_led_c_LED_Init____REVSH        0x00000031   Thumb Code     4  led.o(.revsh_text)
+    __asm___7_delay_c_f6a9c549____REVSH      0x00000035   Thumb Code     4  delay.o(.revsh_text)
+    __asm___5_sys_c_d144038c____REVSH        0x00000039   Thumb Code     4  sys.o(.revsh_text)
+    __asm___7_usart_c__ttywrch____REVSH      0x0000003d   Thumb Code     4  usart.o(.revsh_text)
+    __asm___10_FlashPrg_c_Init____RRX        0x00000041   Thumb Code     6  flashprg.o(.rrx_text)
+    __asm___6_qspi_c_68b0a1e9____RRX         0x00000049   Thumb Code     6  qspi.o(.rrx_text)
+    __asm___8_w25qxx_c_7a854d5a____RRX       0x00000051   Thumb Code     6  w25qxx.o(.rrx_text)
+    __asm___5_led_c_LED_Init____RRX          0x00000059   Thumb Code     6  led.o(.rrx_text)
+    __asm___7_delay_c_f6a9c549____RRX        0x00000061   Thumb Code     6  delay.o(.rrx_text)
+    __asm___5_sys_c_d144038c____RRX          0x00000069   Thumb Code     6  sys.o(.rrx_text)
+    __asm___7_usart_c__ttywrch____RRX        0x00000071   Thumb Code     6  usart.o(.rrx_text)
+    Init                                     0x00000079   Thumb Code    52  flashprg.o(.text)
+    UnInit                                   0x000000ad   Thumb Code     4  flashprg.o(.text)
+    EraseChip                                0x000000b1   Thumb Code    10  flashprg.o(.text)
+    EraseSector                              0x000000bb   Thumb Code    18  flashprg.o(.text)
+    BlankCheck                               0x000000cd   Thumb Code     4  flashprg.o(.text)
+    ProgramPage                              0x000000d1   Thumb Code    24  flashprg.o(.text)
+    Verify                                   0x000000e9   Thumb Code    62  flashprg.o(.text)
+    QSPI_Wait_Flag                           0x00000131   Thumb Code    36  qspi.o(.text)
+    QSPI_Init                                0x00000155   Thumb Code   210  qspi.o(.text)
+    QSPI_Send_CMD                            0x00000227   Thumb Code   110  qspi.o(.text)
+    QSPI_Receive                             0x00000295   Thumb Code   120  qspi.o(.text)
+    QSPI_Transmit                            0x0000030d   Thumb Code   114  qspi.o(.text)
+    W25QXX_Write_Enable                      0x00000399   Thumb Code    26  w25qxx.o(.text)
+    W25QXX_ReadSR                            0x000003b3   Thumb Code    68  w25qxx.o(.text)
+    W25QXX_ReadID                            0x000003f7   Thumb Code    44  w25qxx.o(.text)
+    W25QXX_Write_SR                          0x00000423   Thumb Code    58  w25qxx.o(.text)
+    W25QXX_Qspi_Enable                       0x0000045d   Thumb Code    50  w25qxx.o(.text)
+    W25QXX_Init                              0x0000048f   Thumb Code    90  w25qxx.o(.text)
+    W25QXX_Qspi_Disable                      0x000004e9   Thumb Code    24  w25qxx.o(.text)
+    W25QXX_Write_Disable                     0x00000501   Thumb Code    26  w25qxx.o(.text)
+    W25QXX_Read                              0x0000051b   Thumb Code    28  w25qxx.o(.text)
+    W25QXX_Wait_Busy                         0x00000537   Thumb Code    14  w25qxx.o(.text)
+    W25QXX_Write_Page                        0x00000545   Thumb Code    38  w25qxx.o(.text)
+    W25QXX_Write_NoCheck                     0x0000056b   Thumb Code    62  w25qxx.o(.text)
+    W25QXX_Erase_Sector                      0x000005a9   Thumb Code    30  w25qxx.o(.text)
+    W25QXX_Write                             0x000005c7   Thumb Code   152  w25qxx.o(.text)
+    W25QXX_Erase_Chip                        0x0000065f   Thumb Code    28  w25qxx.o(.text)
+    LED_Init                                 0x00000685   Thumb Code    48  led.o(.text)
+    delay_init                               0x000006bd   Thumb Code    20  delay.o(.text)
+    delay_us                                 0x000006d1   Thumb Code    48  delay.o(.text)
+    delay_xms                                0x00000701   Thumb Code    54  delay.o(.text)
+    delay_ms                                 0x00000737   Thumb Code    46  delay.o(.text)
+    MY_NVIC_SetVectorTable                   0x00000769   Thumb Code    12  sys.o(.text)
+    MY_NVIC_PriorityGroupConfig              0x00000775   Thumb Code    28  sys.o(.text)
+    MY_NVIC_Init                             0x00000791   Thumb Code    74  sys.o(.text)
+    Ex_NVIC_Config                           0x000007db   Thumb Code    86  sys.o(.text)
+    GPIO_AF_Set                              0x00000831   Thumb Code    32  sys.o(.text)
+    GPIO_Set                                 0x00000851   Thumb Code   124  sys.o(.text)
+    GPIO_Pin_Set                             0x000008cd   Thumb Code    12  sys.o(.text)
+    GPIO_Pin_Get                             0x000008d9   Thumb Code    10  sys.o(.text)
+    WFI_SET                                  0x000008e3   Thumb Code     4  sys.o(.text)
+    INTX_DISABLE                             0x000008e7   Thumb Code     4  sys.o(.text)
+    INTX_ENABLE                              0x000008eb   Thumb Code     4  sys.o(.text)
+    Sys_Standby                              0x000008ef   Thumb Code    74  sys.o(.text)
+    Sys_Soft_Reset                           0x00000939   Thumb Code    12  sys.o(.text)
+    Cache_Enable                             0x00000945   Thumb Code   128  sys.o(.text)
+    Sys_Clock_Set                            0x000009c5   Thumb Code   308  sys.o(.text)
+    Stm32_Clock_Init                         0x00000af9   Thumb Code   128  sys.o(.text)
+    _ttywrch                                 0x00000b79   Thumb Code     2  usart.o(.text)
+    _sys_exit                                0x00000b7b   Thumb Code     2  usart.o(.text)
+    fputc                                    0x00000b7d   Thumb Code    14  usart.o(.text)
+    USART1_IRQHandler                        0x00000b8b   Thumb Code    80  usart.o(.text)
+    uart_init                                0x00000bdb   Thumb Code   144  usart.o(.text)
+    __use_no_semihosting                     0x00000c85   Thumb Code     2  use_no_semi_2.o(.text)
+    __semihosting$guard                      0x00000c87   Thumb Code     0  use_no_semi.o(.text)
+    __use_no_semihosting_swi                 0x00000c87   Thumb Code     2  use_no_semi.o(.text)
+    base_adr                                 0x00000c8c   Data           4  flashprg.o(.data)
+    W25QXX_QPI_MODE                          0x00000c90   Data           1  w25qxx.o(.data)
+    W25QXX_TYPE                              0x00000c92   Data           2  w25qxx.o(.data)
+    USART_RX_STA                             0x00000c96   Data           2  usart.o(.data)
+    __stdout                                 0x00000c98   Data           4  usart.o(.data)
+    FlashDevice                              0x00000c9c   Data        4256  flashdev.o(.constdata)
+    aux_buf                                  0x00000c9c   Data        4096  flashprg.o(.bss)
+    W25QXX_BUFFER                            0x00001c9c   Data        4096  w25qxx.o(.bss)
+    USART_RX_BUF                             0x00002c9c   Data         200  usart.o(.bss)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image entry point : Not specified.
+
+  Load Region PRG (Base: 0x00000000, Size: 0x00000c9c, Max: 0xffffffff, PI)
+
+    Execution Region PrgCode (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00000c88, Max: 0xffffffff, PI)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000000   0x00000006   Code   RO          210    .emb_text           sys.o
+    0x00000006   0x00000006   0x00000002   PAD
+    0x00000008   0x00000008   0x00000004   Code   RO            1    .rev16_text         flashprg.o
+    0x0000000c   0x0000000c   0x00000004   Code   RO           91    .rev16_text         qspi.o
+    0x00000010   0x00000010   0x00000004   Code   RO          119    .rev16_text         w25qxx.o
+    0x00000014   0x00000014   0x00000004   Code   RO          151    .rev16_text         led.o
+    0x00000018   0x00000018   0x00000004   Code   RO          178    .rev16_text         delay.o
+    0x0000001c   0x0000001c   0x00000004   Code   RO          207    .rev16_text         sys.o
+    0x00000020   0x00000020   0x00000004   Code   RO          259    .rev16_text         usart.o
+    0x00000024   0x00000024   0x00000004   Code   RO            2    .revsh_text         flashprg.o
+    0x00000028   0x00000028   0x00000004   Code   RO           92    .revsh_text         qspi.o
+    0x0000002c   0x0000002c   0x00000004   Code   RO          120    .revsh_text         w25qxx.o
+    0x00000030   0x00000030   0x00000004   Code   RO          152    .revsh_text         led.o
+    0x00000034   0x00000034   0x00000004   Code   RO          179    .revsh_text         delay.o
+    0x00000038   0x00000038   0x00000004   Code   RO          208    .revsh_text         sys.o
+    0x0000003c   0x0000003c   0x00000004   Code   RO          260    .revsh_text         usart.o
+    0x00000040   0x00000040   0x00000006   Code   RO            3    .rrx_text           flashprg.o
+    0x00000046   0x00000046   0x00000002   PAD
+    0x00000048   0x00000048   0x00000006   Code   RO           93    .rrx_text           qspi.o
+    0x0000004e   0x0000004e   0x00000002   PAD
+    0x00000050   0x00000050   0x00000006   Code   RO          121    .rrx_text           w25qxx.o
+    0x00000056   0x00000056   0x00000002   PAD
+    0x00000058   0x00000058   0x00000006   Code   RO          153    .rrx_text           led.o
+    0x0000005e   0x0000005e   0x00000002   PAD
+    0x00000060   0x00000060   0x00000006   Code   RO          180    .rrx_text           delay.o
+    0x00000066   0x00000066   0x00000002   PAD
+    0x00000068   0x00000068   0x00000006   Code   RO          209    .rrx_text           sys.o
+    0x0000006e   0x0000006e   0x00000002   PAD
+    0x00000070   0x00000070   0x00000006   Code   RO          261    .rrx_text           usart.o
+    0x00000076   0x00000076   0x00000002   PAD
+    0x00000078   0x00000078   0x000000b8   Code   RO            4    .text               flashprg.o
+    0x00000130   0x00000130   0x00000268   Code   RO           94    .text               qspi.o
+    0x00000398   0x00000398   0x000002ec   Code   RO          122    .text               w25qxx.o
+    0x00000684   0x00000684   0x00000038   Code   RO          154    .text               led.o
+    0x000006bc   0x000006bc   0x000000ac   Code   RO          181    .text               delay.o
+    0x00000768   0x00000768   0x00000410   Code   RO          211    .text               sys.o
+    0x00000b78   0x00000b78   0x0000010c   Code   RO          262    .text               usart.o
+    0x00000c84   0x00000c84   0x00000002   Code   RO          297    .text               c_we.l(use_no_semi_2.o)
+    0x00000c86   0x00000c86   0x00000002   Code   RO          299    .text               c_we.l(use_no_semi.o)
+
+
+    Execution Region PrgData (Exec base: 0x00000c88, Load base: 0x00000c88, Size: 0x000020dc, Max: 0xffffffff, PI)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000c88   0x00000c88   0x00000004   Data   RW          301    PDT$$ptr            anon$$obj.o
+    0x00000c8c   0x00000c8c   0x00000004   Data   RW            6    .data               flashprg.o
+    0x00000c90   0x00000c90   0x00000004   Data   RW          124    .data               w25qxx.o
+    0x00000c94   0x00000c94   0x00000002   Data   RW          182    .data               delay.o
+    0x00000c96   0x00000c96   0x00000002   Data   RW          264    .data               usart.o
+    0x00000c98   0x00000c98   0x00000004   Data   RW          265    .data               usart.o
+    0x00000c9c        -       0x00001000   Zero   RW            5    .bss                flashprg.o
+    0x00001c9c        -       0x00001000   Zero   RW          123    .bss                w25qxx.o
+    0x00002c9c        -       0x000000c8   Zero   RW          263    .bss                usart.o
+
+
+
+  Load Region DSCR (Base: 0x00000c9c, Size: 0x000010a0, Max: 0xffffffff, PI)
+
+    Execution Region DevDscr (Exec base: 0x00000c9c, Load base: 0x00000c9c, Size: 0x000010a0, Max: 0xffffffff, PI)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000c9c   0x00000c9c   0x000010a0   Data   RO           82    .constdata          flashdev.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       186          4          0          2          0       2693   delay.o
+         0          0       4256          0          0        422   flashdev.o
+       198         10          0          4       4096      10273   flashprg.o
+        70          8          0          0          0       1747   led.o
+       630         26          0          0          0       4286   qspi.o
+      1060         38          0          0          0     987909   sys.o
+       282         26          0          6        200       4731   usart.o
+       762         10          0          4       4096       6303   w25qxx.o
+
+    ----------------------------------------------------------------------
+      3204        122       4256         20       8392    1018364   Object Totals
+         0          0          0          4          0          0   (incl. Generated)
+        16          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         2          0          0          0          0         64   use_no_semi.o
+         2          0          0          0          0         64   use_no_semi_2.o
+
+    ----------------------------------------------------------------------
+         4          0          0          0          0        128   Library Totals
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+         4          0          0          0          0        128   c_we.l
+
+    ----------------------------------------------------------------------
+         4          0          0          0          0        128   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      3208        122       4256         20       8392    1015228   Grand Totals
+      3208        122       4256         20       8392    1015228   ELF Image Totals
+      3208        122       4256         20          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 7464 (   7.29kB)
+    Total RW  Size (RW Data + ZI Data)              8412 (   8.21kB)
+    Total ROM Size (Code + RO Data + RW Data)       7484 (   7.31kB)
+
+==============================================================================
+

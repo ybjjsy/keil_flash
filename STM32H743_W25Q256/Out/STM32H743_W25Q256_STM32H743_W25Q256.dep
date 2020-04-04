@@ -1,0 +1,83 @@
+Dependencies for Project 'STM32H743_W25Q256', Target 'STM32H743_W25Q256': (DO NOT MODIFY !)
+F (.\FlashPrg.c)(0x5BC04308)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\..\test -I .\devices\CORE -I ..\STM32H743_W25Q256 -I .\devices\SYSTEM\delay -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX -I .\devices\STM32H7xx_HAL_Driver\Inc -I .\devices\SYSTEM\usart -I .\devices\HARDWARE\LED --diag_suppress=66-I.\RTE\_STM32H743_W25Q256-IC:\Keil_v5.27\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5.27\ARM\PACK\Keil\STM32H7xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32H743xx -DW25Q256FV -DSTM32H743xx-o .\out\flashprg.o --omf_browse .\out\flashprg.crf --depend .\out\flashprg.d)
+I (..\FlashOS.H)(0x5BBEB22D)
+I (.\devices\SYSTEM\sys\sys.h)(0x5B6843DA)
+I (.\devices\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (C:\Keil_v5.27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\devices\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\delay\delay.h)(0x5B17D3D1)
+I (.\devices\HARDWARE\W25QXX\w25qxx.h)(0x5B224411)
+I (.\devices\HARDWARE\QSPI\qspi.h)(0x5B224411)
+I (.\devices\HARDWARE\LED\LED.h)(0x5BBFFE8E)
+I (.\devices\SYSTEM\usart\usart.h)(0x5B17D73C)
+I (C:\Keil_v5.27\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (.\FlashDev.c)(0x5BBEEDE9)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\..\test -I .\devices\CORE -I ..\STM32H743_W25Q256 -I .\devices\SYSTEM\delay -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX -I .\devices\STM32H7xx_HAL_Driver\Inc -I .\devices\SYSTEM\usart -I .\devices\HARDWARE\LED --diag_suppress=66-I.\RTE\_STM32H743_W25Q256-IC:\Keil_v5.27\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5.27\ARM\PACK\Keil\STM32H7xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32H743xx -DW25Q256FV -DSTM32H743xx-o .\out\flashdev.o --omf_browse .\out\flashdev.crf --depend .\out\flashdev.d)
+I (..\FlashOS.H)(0x5BBEB22D)
+F (.\devices\HARDWARE\QSPI\qspi.c)(0x5E8067AF)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\..\test -I .\devices\CORE -I ..\STM32H743_W25Q256 -I .\devices\SYSTEM\delay -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX -I .\devices\STM32H7xx_HAL_Driver\Inc -I .\devices\SYSTEM\usart -I .\devices\HARDWARE\LED --diag_suppress=66-I.\RTE\_STM32H743_W25Q256-IC:\Keil_v5.27\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5.27\ARM\PACK\Keil\STM32H7xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32H743xx -DW25Q256FV -DSTM32H743xx-o .\out\qspi.o --omf_browse .\out\qspi.crf --depend .\out\qspi.d)
+I (devices\HARDWARE\QSPI\qspi.h)(0x5B224411)
+I (.\devices\SYSTEM\sys\sys.h)(0x5B6843DA)
+I (.\devices\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (C:\Keil_v5.27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\devices\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+F (.\devices\HARDWARE\W25QXX\w25qxx.c)(0x5E8067C5)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\..\test -I .\devices\CORE -I ..\STM32H743_W25Q256 -I .\devices\SYSTEM\delay -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX -I .\devices\STM32H7xx_HAL_Driver\Inc -I .\devices\SYSTEM\usart -I .\devices\HARDWARE\LED --diag_suppress=66-I.\RTE\_STM32H743_W25Q256-IC:\Keil_v5.27\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5.27\ARM\PACK\Keil\STM32H7xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32H743xx -DW25Q256FV -DSTM32H743xx-o .\out\w25qxx.o --omf_browse .\out\w25qxx.crf --depend .\out\w25qxx.d)
+I (devices\HARDWARE\W25QXX\w25qxx.h)(0x5B224411)
+I (.\devices\SYSTEM\sys\sys.h)(0x5B6843DA)
+I (.\devices\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (C:\Keil_v5.27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\devices\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (.\devices\HARDWARE\QSPI\qspi.h)(0x5B224411)
+I (.\devices\SYSTEM\delay\delay.h)(0x5B17D3D1)
+I (.\devices\SYSTEM\usart\usart.h)(0x5B17D73C)
+I (C:\Keil_v5.27\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (.\devices\HARDWARE\LED\led.c)(0x5BBFFE8E)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\..\test -I .\devices\CORE -I ..\STM32H743_W25Q256 -I .\devices\SYSTEM\delay -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX -I .\devices\STM32H7xx_HAL_Driver\Inc -I .\devices\SYSTEM\usart -I .\devices\HARDWARE\LED --diag_suppress=66-I.\RTE\_STM32H743_W25Q256-IC:\Keil_v5.27\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5.27\ARM\PACK\Keil\STM32H7xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32H743xx -DW25Q256FV -DSTM32H743xx-o .\out\led.o --omf_browse .\out\led.crf --depend .\out\led.d)
+I (devices\HARDWARE\LED\led.h)(0x5BBFFE8E)
+I (.\devices\SYSTEM\sys\sys.h)(0x5B6843DA)
+I (.\devices\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (C:\Keil_v5.27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\devices\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+F (.\devices\SYSTEM\delay\delay.c)(0x5B17DD47)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\..\test -I .\devices\CORE -I ..\STM32H743_W25Q256 -I .\devices\SYSTEM\delay -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX -I .\devices\STM32H7xx_HAL_Driver\Inc -I .\devices\SYSTEM\usart -I .\devices\HARDWARE\LED --diag_suppress=66-I.\RTE\_STM32H743_W25Q256-IC:\Keil_v5.27\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5.27\ARM\PACK\Keil\STM32H7xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32H743xx -DW25Q256FV -DSTM32H743xx-o .\out\delay.o --omf_browse .\out\delay.crf --depend .\out\delay.d)
+I (devices\SYSTEM\delay\delay.h)(0x5B17D3D1)
+I (.\devices\SYSTEM\sys\sys.h)(0x5B6843DA)
+I (.\devices\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (C:\Keil_v5.27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\devices\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+F (.\devices\SYSTEM\sys\sys.c)(0x5BC00BC7)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\..\test -I .\devices\CORE -I ..\STM32H743_W25Q256 -I .\devices\SYSTEM\delay -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX -I .\devices\STM32H7xx_HAL_Driver\Inc -I .\devices\SYSTEM\usart -I .\devices\HARDWARE\LED --diag_suppress=66-I.\RTE\_STM32H743_W25Q256-IC:\Keil_v5.27\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5.27\ARM\PACK\Keil\STM32H7xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32H743xx -DW25Q256FV -DSTM32H743xx-o .\out\sys.o --omf_browse .\out\sys.crf --depend .\out\sys.d)
+I (devices\SYSTEM\sys\sys.h)(0x5B6843DA)
+I (devices\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (devices\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (devices\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (C:\Keil_v5.27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (devices\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (devices\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (devices\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+F (.\devices\SYSTEM\usart\usart.c)(0x5B1A4B4D)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\..\test -I .\devices\CORE -I ..\STM32H743_W25Q256 -I .\devices\SYSTEM\delay -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX -I .\devices\STM32H7xx_HAL_Driver\Inc -I .\devices\SYSTEM\usart -I .\devices\HARDWARE\LED --diag_suppress=66-I.\RTE\_STM32H743_W25Q256-IC:\Keil_v5.27\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5.27\ARM\PACK\Keil\STM32H7xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="527" -D_RTE_ -DSTM32H743xx -DW25Q256FV -DSTM32H743xx-o .\out\usart.o --omf_browse .\out\usart.crf --depend .\out\usart.d)
+I (.\devices\SYSTEM\sys\sys.h)(0x5B6843DA)
+I (.\devices\SYSTEM\sys\stm32h7xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\stm32h743xx.h)(0x5A4CE934)
+I (.\devices\SYSTEM\sys\core_cm7.h)(0x5A4CE8F9)
+I (C:\Keil_v5.27\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\devices\SYSTEM\sys\cmsis_compiler.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\cmsis_armcc.h)(0x5A4CE8F9)
+I (.\devices\SYSTEM\sys\system_stm32h7xx.h)(0x5A4CE934)
+I (devices\SYSTEM\usart\usart.h)(0x5B17D73C)
+I (C:\Keil_v5.27\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
